@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+# Trieve Company Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I had a random dataset of companies lying around so I uploaded that to the Trieve API.
 
-Currently, two official plugins are available:
+### Tech Stack Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React + Vite: I'm used to this frontend framework the most
+- React Query: I love to state management ease this gives, just look at how little code I've had to write to manage retries and querying based on state changes.
+- Shadcn/UI: Easy to setup UI library
+- Tailwind: The best way to do css in my opinion
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Time Taken: 1 Hour
+Most of the time was spent looking through trieve docs, rest was trivial.
